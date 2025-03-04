@@ -1,750 +1,95 @@
 <!DOCTYPE html>
-<html lang="zxx">
-
+<html lang="zh-CN">
 <head>
-    <title>Xicopilot | AI Content Generator HTML Website Template</title>
-    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.jpg">
     <meta charset="UTF-8">
-    <meta name="description" content="HTML Templates">
-    <meta name="keywords" content="Content, Generator, Content Generator, Text, Paragraph, Description, AI, AI Website, Website, HTML, Responsive">
-    <meta name="author" content="Pentabay">
-    <meta name="viewport" content="width=device-width">
-    <!-- Icon link -->
-    <link rel="stylesheet" href="static/css/icon.css">
-    <link rel="stylesheet" href="static/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="static/css/font-awesome.min.css">
-    <!-- Style link -->
-    <link rel="stylesheet" href="static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/owl.carousel.css">
-    <!-- slick slider -->
-    <link rel="stylesheet" href="static/css/slick-theme.min.css">
-    <link rel="stylesheet" href="static/css/slick.min.css">
-    <link href="static/css/aos.css" rel="stylesheet">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="static/css/styles.css">
-    <link rel="stylesheet" href="static/css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魂喵网络科技 - AI智能解决方案专家</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-
-    <button onclick="topFunction()" id="backTop" title="Go to top"><i class="fa fa-arrow-up"></i></button>
-
-    <!--header-->
-    <header>
-        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <div class="layer-header">
-                    <a class="navbar-brand" href="">
-                        <img class="img-fluid" src="static/picture/logo.png" alt="img">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="main_nav">
-                        <ul class="navbar-nav me-auto ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="features.html"> Features </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="about-us.html"> About Us </a>
-                            </li>
-    
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" data-bs-toggle="dropdown"> Pages </a>
-                                <ul class="dropdown-menu animate slideIn">
-                                    <li><a class="dropdown-item" href="our-team.html"> Our Team</a></li>
-                                    <li><a class="dropdown-item" href="error.html"> 404 Error </a></li>
-                                    <li><a class="dropdown-item" href="faq.html"> FAQ'S </a></li>
-                                    <li><a class="dropdown-item" href="coming-soon.html"> Coming Soon </a></li>
-                                    <li><a class="dropdown-item" href="terms-and-conditions.html"> Terms and
-                                            Conditions </a></li>
-                                    <li><a class="dropdown-item" href="privacy-policy.html"> Privacy Policy </a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="pricing.html"> Pricing </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.html"> Blog </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact-us.html"> Contact </a>
-                            </li>
-                        </ul>
-                        <div class="header-btns ms-5">
-                            <a class="theme-btn btn-no-design" href="#">English <i class="fa fa-angle-down"></i></a>
-                            <a class="theme-btn btn-main" href="contact-us.html">Start Generate</a>
-                        </div>
-                    </div> <!-- navbar-collapse.// -->
-                </div>
-            </div> <!-- container-fluid.// -->
-        </nav>
-    </header>
-
-    <!-- content -->
-    <div class="main-content-wrapper">
-        <!-- main banner -->
-        <div class="main-banner-container">
-            <div class="container h-100">
-                <div class="row align-items-center justify-content-center h-100">
-                    <div class="col-12 col-md-10 col-lg-8 h-100">
-                        <div class="main-banner-wrapper" data-aos="fade-up" data-aos-duration="3000">
-                            <div class="banner-info-quote">
-                                <span>New</span>
-                                <h4>AI-Enhanced Content for Your Success<i class="fa fa-arrow-right"></i></h4>  
-                            </div>
-                            <h1 class="main-banner-heading">Unlock Creativity and Efficiency with 
-                                Our AI-Driven Content</h1>
-                            <h4 class="main-banner-description">AI writing assistant that helps you create high-quality content, in just a few 
-                                seconds, at a fraction of the cost!</h4>
-
-                            <div class="banner-btns">
-                                <a href="#" class="theme-btn btn-main">Learn More</a>
-                                <a href="#" class="theme-btn btn-secondary">Start Generate for free</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-robot"></i> 魂喵科技
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">产品服务</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">关于我们</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">联系我们</a></li>
+                </ul>
             </div>
         </div>
-        <!-- features -->
-        <div class="section features">
-            <div class="background-img">
-                <img class="img-fluid" src="static/picture/blur-e.png" alt="img">
+    </nav>
+
+    <!-- 各区块内容 -->
+    <main>
+        <!-- 首页横幅 -->
+        <section id="home" class="hero-banner">
+            <div class="container text-center py-5">
+                <h1 class="display-4">引领AI智能新纪元</h1>
+                <p class="lead">为企业提供智能化转型解决方案</p>
             </div>
+        </section>
+
+        <!-- 产品服务 -->
+        <section id="products" class="py-5 bg-light">
             <div class="container">
-                <div class="row" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="features-card faster">
-                            <div class="features-icon">
-                                <img class="img-fluid" src="static/picture/speedometer.png" alt="img">
-                            </div>
-                            <div class="features-content">
-                                <h3>Write blogs 10x faster</h3>
-                                <p>Explain to you how all this mistak idea of pain complete 
-                                    we den ounce with righteous</p>
-                                <a href="#">Try blog content cenerator<i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="features-card posts">
-                            <div class="features-icon">
-                                <img class="img-fluid" src="static/picture/edit.png" alt="img">
-                            </div>
-                            <div class="features-content">
-                                <h3>Write higher converting posts</h3>
-                                <p>Explain to you how all this mistak idea of pain complete 
-                                    we den ounce with righteous</p>
-                                <a href="#">Try blog content cenerator<i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="features-card chat">
-                            <div class="features-icon">
-                                <img class="img-fluid" src="static/picture/chat.png" alt="img">
-                            </div>
-                            <div class="features-content">
-                                <h3>Write more engaging emails</h3>
-                                <p>Explain to you how all this mistak idea of pain complete 
-                                    we den ounce with righteous</p>
-                                <a href="#">Try blog content cenerator<i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- partners -->
-        <div class="section partners pt-4">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-10">
-                        <div class="partners-heading">
-                            <h4>Already chosen by the world leaders</h4>
-                        </div>
-                        <div class="carosel-root">
-                            <div class="carosel partners">
-                                <div class="carosel-item">
-                                    <div class="partners-img-wrapper">
-                                        <img class="img-fluid" src="static/picture/partner-1.svg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="carosel-item">
-                                    <div class="partners-img-wrapper">
-                                        <img class="img-fluid" src="static/picture/partner-2.svg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="carosel-item">
-                                    <div class="partners-img-wrapper">
-                                        <img class="img-fluid" src="static/picture/partner-3.svg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="carosel-item">
-                                    <div class="partners-img-wrapper">
-                                        <img class="img-fluid" src="static/picture/partner-4.svg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="carosel-item">
-                                    <div class="partners-img-wrapper">
-                                        <img class="img-fluid" src="static/picture/partner-5.svg" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- howitworks -->
-        <div class="section howitworks">
-            <div class="howitworks-top-bg">
-                <img class="img-fluid" src="static/picture/blur-d.png" alt="Img">
-            </div>
-            <div class="howitworks-bottom-bg">
-                <img class="img-fluid" src="static/picture/blur-e.png" alt="Img">
-            </div>
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-5">
-                        <div class="section-heading-wrapper">
-                            <span class="section-small-hading">How It Works</span>
-                            <h2 class="section-heading"> Easy implementation in three easy steps</h2>
-                            <p class="section-description">Cutting-edge, user-friendly AI tool and growth analytics designed to boost user conversion, engagement, and retention.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-12 col-md-6 col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="3000">
-                        <div class="howitworks-content-wrapper one">
-                            
-                            <span class="howitworks-content-count">01</span>
-                            <h3>Select a Template</h3>
-                            <p>Let AI analyze and rank applicants based on qualifications, 
-                                experience, and skills, ensuring you focus on the most promising 
-                                candidates first.</p>
-                            <ul>
-                                <li>
-                                    <img class="img-fluid" src="static/picture/checklist.png" alt="img">
-                                    <p>At vero eos et accusamus et iusto</p>
-                                </li>
-                                <li>
-                                    <img class="img-fluid" src="static/picture/checklist.png" alt="img">
-                                    <p>At vero eos et accusamus et iusto</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 mb-4" data-aos="fade-left" data-aos-duration="3000">
-                        <div class="howitworks-image-wrapper">
-                            <div class="howitworks-bg">
-                                <img class="img-fluid" src="static/picture/rect-1.png" alt="Img">
-                            </div>
-                            <img class="img-fluid content-image" src="static/picture/p-a.jpg" alt="Img">
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-12 col-md-6 col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="3000">
-                        <div class="howitworks-image-wrapper">
-                            <div class="howitworks-bg">
-                                <img class="img-fluid" src="static/picture/rect-2.png" alt="Img">
-                            </div>
-                            <img class="img-fluid content-image" src="static/picture/p-b.jpg" alt="Img">
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 mb-4" data-aos="fade-left" data-aos-duration="3000">
-                        <div class="howitworks-content-wrapper one">
-                            
-                            <span class="howitworks-content-count">02</span>
-                            <h3>Fill in Your Product Details</h3>
-                            <p>Let AI analyze and rank applicants based on qualifications, 
-                                experience, and skills, ensuring you focus on the most promising 
-                                candidates first.</p>
-                            <ul>
-                                <li>
-                                    <img class="img-fluid" src="static/picture/checklist.png" alt="img">
-                                    <p>At vero eos et accusamus et iusto</p>
-                                </li>
-                                <li>
-                                    <img class="img-fluid" src="static/picture/checklist.png" alt="img">
-                                    <p>At vero eos et accusamus et iusto</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col-12 col-md-6 col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="3000">
-                        <div class="howitworks-content-wrapper one">
-                            
-                            <span class="howitworks-content-count">03</span>
-                            <h3>Generate AI Content</h3>
-                            <p>Let AI analyze and rank applicants based on qualifications, 
-                                experience, and skills, ensuring you focus on the most promising 
-                                candidates first.</p>
-                            <ul>
-                                <li>
-                                    <img class="img-fluid" src="static/picture/checklist.png" alt="img">
-                                    <p>At vero eos et accusamus et iusto</p>
-                                </li>
-                                <li>
-                                    <img class="img-fluid" src="static/picture/checklist.png" alt="img">
-                                    <p>At vero eos et accusamus et iusto</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-6 mb-4" data-aos="fade-left" data-aos-duration="3000">
-                        <div class="howitworks-image-wrapper">
-                            <div class="howitworks-bg">
-                                <img class="img-fluid" src="static/picture/rect-3.png" alt="Img">
-                            </div>
-                            <img class="img-fluid content-image" src="static/picture/p-c.jpg" alt="Img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- include -->
-        <div class="section include">
-            <div class="include-bg">
-                <img class="img-fluid" src="static/picture/blur-d.png" alt="Img">
-            </div>
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-5">
-                        <div class="section-heading-wrapper">
-                            <span class="section-small-hading">Included</span>
-                            <h2 class="section-heading">Powerful features tailored to your needs</h2>
-                            <p class="section-description">Gain valuable data-driven insights into talent markets worldwide.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-4" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="include-list-wrapper">
-                            <div class="include-list-icon">
-                                <img class="img-fluid" src="static/picture/find.png" alt="img">
-                            </div>
-                            <h3>Find Your Perfect Fit</h3>
-                            <p>Empowering you to make informed hiring decisions and stay ahead of the competition.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="include-list-wrapper">
-                            <div class="include-list-icon">
-                                <img class="img-fluid" src="static/picture/global-navigation.png" alt="img">
-                            </div>
-                            <h3>Hire Globally with Ease</h3>
-                            <p>Empowering you to make informed hiring decisions and stay ahead of the competition.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="include-list-wrapper">
-                            <div class="include-list-icon">
-                                <img class="img-fluid" src="static/picture/data-driven.png" alt="img">
-                            </div>
-                            <h3>Make Data-Driven Decisions</h3>
-                            <p>Empowering you to make informed hiring decisions and stay ahead of the competition.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="include-list-wrapper">
-                            <div class="include-list-icon">
-                                <img class="img-fluid" src="static/picture/simplify.png" alt="img">
-                            </div>
-                            <h3>Simplify Your Hiring Process</h3>
-                            <p>Empowering you to make informed hiring decisions and stay ahead of the competition.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="include-list-wrapper">
-                            <div class="include-list-icon">
-                                <img class="img-fluid" src="static/picture/need.png" alt="img">
-                            </div>
-                            <h3>Tailored to Your Needs</h3>
-                            <p>Empowering you to make informed hiring decisions and stay ahead of the competition.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="include-list-wrapper">
-                            <div class="include-list-icon">
-                                <img class="img-fluid" src="static/picture/focus.png" alt="img">
-                            </div>
-                            <h3>Focus on the Best Fits</h3>
-                            <p>Empowering you to make informed hiring decisions and stay ahead of the competition.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- divider block -->
-        <div class="section lasting-impression pt-0" data-aos="fade-up" data-aos-duration="3000">
-            <div class="container">
+                <h2 class="text-center mb-5">核心产品与服务</h2>
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <div class="lm-wrapper">
-                            <div>
-                                <h3>Making a lasting impression with AI Congen</h3>
-                                <h4>Discover why hiring managers prefer Hirevision over the competition and what makes it the easiest, most powerful video interviewing platform on the marke</h4>
-                            </div>                           
-                            <a class="theme-btn btn-main" href="contact-us.html">Request Demo</a>
-                        </div>
-                    </div>
+                    <!-- 产品卡片将通过JavaScript动态加载 -->
                 </div>
             </div>
-        </div>
-        <!-- metrics -->
-        <div class="section metrics">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-10">
-                        <div class="section-heading-wrapper">
-                            <span class="section-small-hading">Mertics</span>
-                            <h2 class="section-heading">Numbers speaking for themselves</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" data-aos="fade-right" data-aos-duration="3000">
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="funfactor-wrapper">
-                            <h1>75%</h1>
-                            <h3>Candidate match rate</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="funfactor-wrapper">
-                            <h1>4000+</h1>
-                            <h3>Successful placement</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="funfactor-wrapper">
-                            <h1>50+</h1>
-                            <h3>Operating Countries</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- testimonials -->
-        <div class="section testimonial">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-10">
-                        <div class="section-heading-wrapper">
-                            <span class="section-small-hading">Testimonials</span>
-                            <h2 class="section-heading">Don’t take our word for it</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-11 col-lg-11">
-                        <div class="carosel-root">
-                            <div class="carosel testi">
-                                <!-- card 1 -->
-                                <div class="carosel-item">
-                                    <div class="testi-card-wrapper voilet">
-                                        <p>As a fast-growing startup, we needed 
-                                            an efficient way to find skilled 
-                                            professionals from various regions. This 
-                                            AI tool exceeded our expectations."</p>
-                                        <div class="testi-author">
-                                            <img class="img-fluid" src="static/picture/our-team-1.jpg" alt="Img">
-                                            <p>Michael Chen, HR Director at Acme 
-                                                Enterprises.</p>
-                                        </div>
-                                    </div>                                   
-                                </div>
-                                <!-- card 1 -->
-                                <div class="carosel-item">
-                                    <div class="testi-card-wrapper yellow">
-                                        <p>As a fast-growing startup, we needed 
-                                            an efficient way to find skilled 
-                                            professionals from various regions. This 
-                                            AI tool exceeded our expectations."</p>
-                                        <div class="testi-author">
-                                            <img class="img-fluid" src="static/picture/our-team-2.jpg" alt="Img">
-                                            <p>John Micheal, Managing Director at ABC Enterprises.</p>
-                                        </div>
-                                    </div>                                   
-                                </div>
-                                <!-- card 1 -->
-                                <div class="carosel-item">
-                                    <div class="testi-card-wrapper green">
-                                        <p>As a fast-growing startup, we needed 
-                                            an efficient way to find skilled 
-                                            professionals from various regions. This 
-                                            AI tool exceeded our expectations."</p>
-                                        <div class="testi-author">
-                                            <img class="img-fluid" src="static/picture/our-team-3.jpg" alt="Img">
-                                            <p>Mary Joe, Web Designer at Acme 
-                                                Enterprises.</p>
-                                        </div>
-                                    </div>                                   
-                                </div>
-                                <!-- card 1 -->
-                                <div class="carosel-item">
-                                    <div class="testi-card-wrapper voilet">
-                                        <p>As a fast-growing startup, we needed 
-                                            an efficient way to find skilled 
-                                            professionals from various regions. This 
-                                            AI tool exceeded our expectations."</p>
-                                        <div class="testi-author">
-                                            <img class="img-fluid" src="static/picture/our-team-4.jpg" alt="Img">
-                                            <p>Michael Chen, Director at Acme 
-                                                Enterprises.</p>
-                                        </div>
-                                    </div>                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-11 col-lg-11">
-                        <div class="button-block middle">
-                            <a class="theme-btn btn-norder-green" href="#">More Stories</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- faq -->
-        <div class="section faq">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-10">
-                        <div class="section-heading-wrapper">
-                            <span class="section-small-hading">FAQ</span>
-                            <h2 class="section-heading">We’ve got you covered</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="col-12 col-md-10 col-lg-8">
-                        <div class="faq-accordion faq">
-                            <div class="accordion" id="accordionExample1">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="faqh1">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqc1" aria-expanded="true" aria-controls="faqc1">
-                                            Q. What is a copy?
-                                        </button>
-                                    </h2>
-                                    <div id="faqc1" class="accordion-collapse collapse show" aria-labelledby="faqh1" data-bs-parent="#accordionExample1">
-                                        <div class="accordion-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                commodo consequat.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="faqh2">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqc2" aria-expanded="false" aria-controls="faqc2">
-                                            Q. Does AI Content to write long articles?
-                                        </button>
-                                    </h2>
-                                    <div id="faqc2" class="accordion-collapse collapse" aria-labelledby="faqh2" data-bs-parent="#accordionExample1">
-                                        <div class="accordion-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                commodo consequat.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="faqh3">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqc3" aria-expanded="false" aria-controls="faqc3">
-                                            Q. Is the generated content original?
-                                        </button>
-                                    </h2>
-                                    <div id="faqc3" class="accordion-collapse collapse" aria-labelledby="faqh3" data-bs-parent="#accordionExample1">
-                                        <div class="accordion-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                commodo consequat.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="faqh4">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqc4" aria-expanded="false" aria-controls="faqc4">
-                                            Q. Do you have wordpress plugin?
-                                        </button>
-                                    </h2>
-                                    <div id="faqc4" class="accordion-collapse collapse" aria-labelledby="faqh4" data-bs-parent="#accordionExample1">
-                                        <div class="accordion-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                commodo consequat.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- blog -->
-        <div class="section blog pt-2">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-10">
-                        <div class="section-heading-wrapper">
-                            <span class="section-small-hading">Blog</span>
-                            <h2 class="section-heading">From our Blog</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="blog-wrapper">
-                            <a class="blog-image" href="#">
-                                <img class="img-fluid" src="static/picture/blog-1.png" alt="img">
-                            </a>
-                            <span class="blog-badge">Articles</span>
-                            <a class="blog-heading" href="#"><h3>What Is An AI Writing Assistant, And How Is It</h3></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="blog-wrapper">
-                            <a class="blog-image" href="#">
-                                <img class="img-fluid" src="static/picture/blog-2.png" alt="img">
-                            </a>
-                            <span class="blog-badge">Articles</span>
-                            <a class="blog-heading" href="#"><h3>15 Uses of Content Generator Tools and Why</h3></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="blog-wrapper">
-                            <a class="blog-image" href="#">
-                                <img class="img-fluid" src="static/picture/blog-3.png" alt="img">
-                            </a>
-                            <span class="blog-badge">Articles</span>
-                            <a class="blog-heading" href="#"><h3>5 Reasons Why CopyGenAI Is the Best AI Writing</h3></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-11 col-lg-11">
-                        <div class="button-block middle">
-                            <a class="theme-btn btn-norder-green" href="#">More Articles</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- get start -->
-        <div class="section get-start">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-12 col-lg-12">
-                        <div class="getstart-wrapper">
-                            <h3>Ready to get started?</h3>
-                            <h4>It's like having access to a team of copywriting experts writing 
-                                <br>powerful copy for you in 1-click.</h4>
-                            <a class="theme-btn btn-main" href="contact-us.html">Request Demo</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- footer -->
-    <footer>
-        <div class="container"> 
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="footer-logo">
-                        <img class="img-fluid" src="static/picture/logo.png" alt="img">
+        <!-- 关于我们 -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">关于魂喵科技</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>公司使命</h3>
+                        <p>致力于人工智能技术的研发与应用，助力企业实现数字化转型...</p>
                     </div>
-                    <div class="footer-description">
-                        <p>CopyGen is an artificial intelligence trained to 
-                            automate important tasks such as writing 
-                            optimized product descriptions, 
-                            high-converting ad copy, blog outlines, 
-                            and more!</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2 mb-4">
-                    <div class="footer-links">
-                        <h3 class="footer-heading">Company</h3>
-                        <ul class="footer-link-list">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">Community</a></li>
-                            <li><a href="#">Creator Program</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2 mb-4">
-                    <div class="footer-links">
-                        <h3 class="footer-heading">Use Case</h3>
-                        <ul class="footer-link-list">
-                            <li><a href="#">Blog Writing</a></li>
-                            <li><a href="#">Social Media Ada</a></li>
-                            <li><a href="#">Creative Writing</a></li>
-                            <li><a href="#">Magic Command</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2 mb-4">
-                    <div class="footer-links">
-                        <h3 class="footer-heading">Use Case</h3>
-                        <ul class="footer-link-list">
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Weekly Demos</a></li>
-                            <li><a href="#">Report a Bug</a></li>
-                            <li><a href="#">Request a new feature</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-4">
-                    <div class="footer-about">
-                        <h3 class="footer-heading">Get in touch</h3>
-                        <ul class="footer-contact-list">
-                            <li><a href="#">+123-456-7890</a></li>
-                            <li><a href="#">Info@example.com</a></li>
-                            <li><a href="#">1234, New Winston Road, New York
-                                NY 1234</a></li>
-                        </ul>
-                        <!-- <ul class="footer-social-list">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul> -->
+                    <div class="col-md-6">
+                        <img src="images/team.jpg" alt="技术团队" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="footer-bottom">
-                        <p>Copyright &copy; 2024.北京魂喵网络科技有限公司 All rights reserved.</p>
-                        <ul class="footer-social-list">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact" class="py-5 bg-dark text-white">
+            <div class="container">
+                <h2 class="text-center mb-5">联系我们</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><i class="fas fa-map-marker-alt"></i> 公司地址</h4>
+                        <p>河南省郑州市金水区人工智能产业园A座</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4><i class="fas fa-envelope"></i> 电子邮箱</h4>
+                        <p>contact@xicopilot.com</p>
                     </div>
                 </div>
             </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2023 河南魂喵网络科技有限公司 豫ICP备12345678号</p>
         </div>
     </footer>
 
-    <!-- Script tag -->
-    <script src="static/js/jquery-3.6.0.js"></script>
-    <script src="static/js/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script src="static/js/owl.carousel.min.js"></script>
-    <script src="static/js/slick.min.js"></script>
-    <script src="static/js/aos.js"></script>
-    <script src="static/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 </html>

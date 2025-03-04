@@ -1,0 +1,34 @@
+/* 基础样式 */
+body {
+    padding-top: 56px; /* 导航栏高度补偿 */
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.hero-banner {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    color: white;
+    padding: 120px 0;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .hero-banner h1 {
+        font-size: 2rem;
+    }
+}
+
+/* 卡片动效 */
+.product-card {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* 联系表单样式 */
+.contact-form input,
+.contact-form textarea {
+    border-radius: 20px;
+    padding: 15px 25px;
+}
